@@ -4,16 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tangram</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/figures.css"> 
+    <script src="JS/script.js" defer></script>
+    <link rel="stylesheet" href="css/figures.css">
+    <link rel="stylesheet" href="css/devine.css">
     <link rel="stylesheet" href="css/square.css">
+    <link rel="stylesheet" href="css/figure3.css">
+
+    
     
 </head>
 <body>
     <h1>Tangram</h1>
     
-            <div class="tangram tangram--basic">
+    <button class="button--basic">Basic</button>
+    <button class="button--teeShirt">Devine</button>
+    <button class="button--figure3">Figure N°3</button>
+    
+    
+             <div class="tangram ">
                 <div class="figure1"></div>
                 <div class="figure2"></div>
                 <div class="figure3"></div>
@@ -23,6 +33,10 @@
                 <div class="figure7"></div>
                 
             </div>
+
+        
+
+
     
 
 
@@ -51,54 +65,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
 
-    var tangram = document.getElementsByClassName("tangram")[0];
-    var button_basic = document.getElementsByClassName("button--basic")[0];
-    var button_bateau1 = document.getElementsByClassName("button--bateau1")[0];
-    var button_bateau2 = document.getElementsByClassName("button--bateau2")[0];
-    var button_bateau3= document.getElementsByClassName("button--bateau3")[0];
-    var button_bateau4 = document.getElementsByClassName("button--bateau4")[0];
-    var button_soufiane = document.getElementsByClassName("button--soufiane")[0];
-    var button_kevin = document.getElementsByClassName("button--kevin")[0];
-    var button_Quentin = document.getElementsByClassName("button--Quentin")[0];
-    var button_Simon = document.getElementsByClassName("button--Simon")[0];
-    
-    
-    button_basic.onclick = function() {
-        tangram.className =
-      tangram.className.replace(/tangram--(\S*)/,'tangram--basic');
-    };
-    button_bateau1.onclick = function() {
-        tangram.className =
-      tangram.className.replace(/tangram--(\S*)/,'tangram--bateau1');
-    };
-    button_bateau2.onclick = function() {
-        tangram.className =
-      tangram.className.replace(/tangram--(\S*)/,'tangram--bateau2');
-    };
-    button_bateau3.onclick = function() {
-        tangram.className =
-      tangram.className.replace(/tangram--(\S*)/,'tangram--bateau3');
-    };
-    button_bateau4.onclick = function() {
-        tangram.className =
-      tangram.className.replace(/tangram--(\S*)/,'tangram--bateau4');
-    };
-    button_soufiane.onclick = function() {
-        tangram.className =
-      tangram.className.replace(/tangram--(\S*)/,'tangram--soufiane');
-    };
-    button_Quentin.onclick = function() {
-        tangram.className =
-      tangram.className.replace(/tangram--(\S*)/,'tangram--Quentin');
-    };
-    button_Simon.onclick = function() {
-        tangram.className =
-      tangram.className.replace(/tangram--(\S*)/,'tangram--Simon');
-    };
-    button_kevin.onclick = function() {
-        tangram.className =
-      tangram.className.replace(/tangram--(\S*)/,'tangram--kevin');
-    };
+   
 
 </body>
 </html>
